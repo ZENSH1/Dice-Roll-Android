@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:fontFamily="serif-monospace"
+            android:text="ROLL THE DICE"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/green"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-By Zain Sherazi"
+            android:textSize="24sp"
+            android:gravity="right"
+            android:fontFamily="cursive"
+            android:textColor="@color/green"
+            android:layout_marginLeft="80dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="230dp"
+            android:src="@drawable/num1"
+            />
+
+        <TextView
+            android:id="@+id/Dicetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Press to Roll"
+            android:textSize="25sp"
+            android:textColor="@color/green"
+            android:layout_marginTop="20dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button"
+                android:layout_width="174dp"
+                android:layout_height="82dp"
+                android:text="Roll the Dice"
+                android:layout_marginTop="40dp"
+                android:textStyle="bold"
+                android:onClick="roll"
+                android:fontFamily="serif-monospace"
+                android:backgroundTint="@color/green"
+                />
+
+            <Button
+                android:layout_width="174dp"
+                android:layout_height="82dp"
+                android:text="Change name"
+                android:layout_marginTop="40dp"
+                android:onClick="Rename"
+                android:backgroundTint="@color/green"
+                android:textStyle="bold"
+                android:fontFamily="serif-monospace"
+                /></LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
