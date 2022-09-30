@@ -1,7 +1,7 @@
 # Dice-Roll-Android
 dice roll app, with animations.
 
-Basic Example of Changing Layouts with Animation.
+<h1>Basic Example of Changing Layouts with Animation.</h1>
 
 Contains three different Layouts.
 
