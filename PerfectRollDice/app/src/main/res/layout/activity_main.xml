@@ -14,7 +14,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Game By Zain"
+            android:text="Game By ZENSH1"
             android:textSize="60sp"
             android:fontFeatureSettings="@string/material_motion_easing_accelerated"
             android:fontFamily="cursive"
